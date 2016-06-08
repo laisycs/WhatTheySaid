@@ -17,10 +17,10 @@ import twitter4j.auth.AccessToken;
 import org.apache.spark.streaming.twitter.*;
 
 public class TwitterStreamingExample {
-	private static final String consumerKey = "ntNC6bOzZ71az727bK18TpvmH";
-	private static final String consumerSecret = "vWjc4arA0XHdyIl4Q6IBJadV34RK9IHujPNTq3NatGgtOq5vpj";
-	private static final String accessToken = "2234236346-WFAszADHQd8BrqEJWXzJvhRebSaayGIM7M5V72A";
-	private static final String accessTokenSecret = "wfxeD5GjjdK4LS9wdCOZwtmlhz1gWvzmVW8fsq2ZVQdJV";
+	private static final String consumerKey = "***";
+	private static final String consumerSecret = "***";
+	private static final String accessToken = "***";
+	private static final String accessTokenSecret = "***";
 	
 	private static transient JavaReceiverInputDStream<twitter4j.Status> receiver;
 	private static transient JavaDStream<twitter4j.Status> hasTrump;
