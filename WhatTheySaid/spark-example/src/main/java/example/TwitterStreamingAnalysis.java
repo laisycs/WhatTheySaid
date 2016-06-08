@@ -19,10 +19,10 @@ import org.apache.spark.streaming.twitter.*;
 import org.json.*;
 
 public class TwitterStreamingAnalysis {
-	private static final String consumerKey = "4yn6CjzxHwKmDyY6TJTvrpCYP";
-	private static final String consumerSecret = "gWlgiHbM1q7tL5k8LLQ7vaCDYboSZQt4EKXMkHNq1ZAZoz7Z4C";
-	private static final String accessToken = "734546468573347840-rkY68hk9rQ2m2CRF3ltyqYwoJshJjz2";
-	private static final String accessTokenSecret = "EkoziulDpZ8VePBEZvhBWPsApj9KA53HMvMaxUNkOAd2p";
+	private static final String consumerKey = "***";
+	private static final String consumerSecret = "***";
+	private static final String accessToken = "***";
+	private static final String accessTokenSecret = "***";
 	
 	private static final Set<String> posWords = new HashSet<String>();
 	private static final Set<String> negWords = new HashSet<String>();
