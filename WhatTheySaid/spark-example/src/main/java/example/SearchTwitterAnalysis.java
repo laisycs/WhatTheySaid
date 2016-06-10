@@ -59,10 +59,10 @@ public class SearchTwitterAnalysis {
 	}
 	
 	private static void setUpTwitter() {
-		String accessToken = "734546468573347840-rkY68hk9rQ2m2CRF3ltyqYwoJshJjz2";
-		String accessTokenSecret = "EkoziulDpZ8VePBEZvhBWPsApj9KA53HMvMaxUNkOAd2p";
-		String consumerKey = "4yn6CjzxHwKmDyY6TJTvrpCYP";
-		String consumerSecret = "gWlgiHbM1q7tL5k8LLQ7vaCDYboSZQt4EKXMkHNq1ZAZoz7Z4C";
+		String accessToken = "***";
+		String accessTokenSecret = "***";
+		String consumerKey = "***";
+		String consumerSecret = "***";
 		ConfigurationBuilder build = new ConfigurationBuilder();
 	    
 	    build.setOAuthAccessToken(accessToken);
